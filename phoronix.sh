@@ -13,5 +13,5 @@ fi
 cp -R benchmarks.txt installed-tests/ ~/.phoronix-test-suite
 rm phoronix.deb
 
-# run graphics Benchmark based on Xonotic at 1024x768 with High detail on
-phoronix-test-suite benchmark 2408096-NE-1920X108068
+# run graphics Benchmark based on SuperTuxKart at 1024x768, 8 karts, high graphic effects, Around the Lighthouse track
+phoronix-test-suite benchmark 2408129-NE-SUPERTUXK11
