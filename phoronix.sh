@@ -14,4 +14,4 @@ cp -R benchmarks.txt installed-tests/ ~/.phoronix-test-suite
 rm phoronix.deb
 
 # run graphics Benchmark based on OpenArena at 1024x768
-phoronix-test-suite benchmark https://openbenchmarking.org/result/2408128-NE-OPENARENA08
+phoronix-test-suite benchmark 2408128-NE-OPENARENA08
