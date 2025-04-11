@@ -13,5 +13,8 @@ fi
 cp -R benchmarks.txt installed-tests/ ~/.phoronix-test-suite
 rm phoronix.deb
 
+# We no longer run phoronix-test-suite as part of our regular benchmarking
+# but we're still installing it as it can come in handy on some machines
 # run graphics Benchmark based on OpenArena at 1024x768
-phoronix-test-suite benchmark 2408128-NE-OPENARENA08
+#phoronix-test-suite benchmark 2408128-NE-OPENARENA08
+phoronix-test-suite system-info
